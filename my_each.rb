@@ -5,4 +5,5 @@ def my_each(arr)
     yield arr[tick]
     tick += 1
   end
+  arr
 end
